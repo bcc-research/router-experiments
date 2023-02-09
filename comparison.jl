@@ -98,8 +98,8 @@ function run_experiment(ns_pools, factors; rseed=0)
 end
 
 
-# ns_pools = round.(Int, 10 .^ range(2, 5, 25))
-ns_pools = round.(Int, range(1e2, 10e4, 20))
+ns_pools = round.(Int, 10 .^ range(2, 5, 25))
+# ns_pools = round.(Int, range(1e2, 10e4, 20))
 factors = [2]
 time_router, time_mosek, obj_router, obj_mosek = run_experiment(ns_pools, factors)
 obj_diff = obj_router - obj_mosek
@@ -144,7 +144,7 @@ plt_obj = plot(
     label="CFMMRouter",
     right_margin=15Plots.mm,
     color=:blue,
-    legend=:bottomright
+    legend=:topleft
 )
 plot!(plt_obj,
     ns_pools,
