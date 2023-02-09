@@ -1,0 +1,11 @@
+[deps]
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+CFMMRouter = "591468fd-1d79-403f-bb2b-3ef7f4d90130"
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
+LaTeXStrings = "b964fa9f-0449-5b57-a5c2-d3ea65f4040f"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+MosekTools = "1ec41992-ff65-5c91-ac43-2df89e9693a4"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
